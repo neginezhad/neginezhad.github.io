@@ -1670,5 +1670,17 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+		#contact .icons {
+		  justify-content: center;
+		  margin-top: 1.5rem;
+		}
+		
+		#contact .icons li a {
+		  width: 2.75rem;
+		  height: 2.75rem;
+		  line-height: 2.75rem;
+		  font-size: 1.2rem;
+		}
+
 
 
