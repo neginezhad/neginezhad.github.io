@@ -1299,12 +1299,13 @@ input, select, textarea {
 		}
 
 		#header .logo img {
-			width: 100%;
-			height: 100%;
-			border-radius: 50%;
-			object-fit: cover;
-			object-position: 50% 20%;
-			display: block;
+		  width: 100% !important;
+		  height: 100% !important;
+		  border-radius: 50%;
+		  object-fit: cover;
+		  object-position: 50% 25%;
+		  display: block;
+		  margin: 0 auto;
 		}
 
 			#header .logo .icon:before {
@@ -1668,4 +1669,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
