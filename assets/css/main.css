@@ -1307,7 +1307,9 @@ input, select, textarea {
 		  display: block;
 		  margin: 0 auto;
 		  max-width: none;
-		  transform: scale(1.05);
+		  transform: none;
+		  position: relative;
+		  top: 0;
 		}
 
 			#header .logo .icon:before {
@@ -1683,6 +1685,7 @@ input, select, textarea {
 		  line-height: 2.75rem;
 		  font-size: 1.2rem;
 		}
+
 
 
 
