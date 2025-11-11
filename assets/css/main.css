@@ -78,7 +78,7 @@ input, select, textarea {
 		width: device-width;
 	}
 
-	@media screen and (max-width: 480px) {
+	 screen and (max-width: 480px) {
 
 		html, body {
 			min-width: 320px;
@@ -115,7 +115,7 @@ input, select, textarea {
 		font-size: 16pt;
 	}
 
-		@media screen and (max-width: 1680px) {
+		 screen and (max-width: 1680px) {
 
 			html {
 				font-size: 12pt;
@@ -123,7 +123,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		 screen and (max-width: 736px) {
 
 			html {
 				font-size: 11pt;
@@ -1453,9 +1453,9 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
+				width: 10rem;
+				height: 10rem;
+				line-height: 10rem;
 			}
 
 				#header .logo .icon:before {
@@ -1683,6 +1683,7 @@ input, select, textarea {
 		  line-height: 2.75rem;
 		  font-size: 1.2rem;
 		}
+
 
 
 
