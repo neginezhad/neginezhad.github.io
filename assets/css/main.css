@@ -1696,14 +1696,15 @@ input, select, textarea {
   border-radius: 100%;
 }
 
-/* Homepage contact icons styled like the original modal icons */
-#header .home-icons {
-  margin-top: 1.25rem;
+#header nav .home-icons {
+  margin-top: 1rem;
 }
 
-#header .home-icons li a {
-  border-bottom: none;
+#header nav .home-icons li {
+  margin: 0 0.35rem;
 }
+
+
 
 
 
