@@ -1682,6 +1682,7 @@ input, select, textarea {
 		  font-size: 1.2rem;
 		}
 
+/* Fix header profile photo stability (Dimension / HTML5UP) */
 #header .logo {
   overflow: hidden;              /* keep circle clean during transitions */
   border-radius: 100%;
@@ -1695,6 +1696,17 @@ input, select, textarea {
   border-radius: 100%;
 }
 
+/* Contact line on homepage header */
+#header .home-contact {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+#header .home-contact .sep {
+  margin: 0 0.5rem;
+  opacity: 0.6;
+}
 
 
 
