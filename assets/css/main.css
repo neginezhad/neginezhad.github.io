@@ -1682,18 +1682,28 @@ input, select, textarea {
 		  font-size: 1.2rem;
 		}
 
-/* Make the SVG behave like the FA icons */
-.icon.bsky:before { content: none !important; }
+/* kill the FA pseudo-icon for Bluesky */
+ul.icons a.icon.bsky::before { content: none !important; }
 
-.icon.bsky svg {
+/* center and size the SVG image */
+ul.icons a.icon.bsky {
+  position: relative;
+}
+
+ul.icons a.icon.bsky img {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 1em;
-  height: 1em;
+  width: 1.05em;
+  height: 1.05em;
   transform: translate(-50%, -50%);
-  fill: currentColor;
+  display: block;
+  filter: brightness(0) invert(1); /* turns any dark svg into white */
+  opacity: 1;
+  pointer-events: none;
 }
+
+
 
 
 
