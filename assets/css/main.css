@@ -1683,21 +1683,19 @@ input, select, textarea {
 		}
 
 /* Make the SVG behave like the FA icons */
-.icon.bsky:before {
-  content: none !important;   /* kill Font Awesome pseudo icon */
-}
-
-.icon.bsky {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+.icon.bsky:before { content: none !important; }
 
 .icon.bsky svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 1em;
   height: 1em;
-  display: block;
+  transform: translate(-50%, -50%);
+  fill: currentColor;
 }
+
+
 
 
 
