@@ -1682,6 +1682,23 @@ input, select, textarea {
 		  font-size: 1.2rem;
 		}
 
+/* Make the SVG behave like the FA icons */
+.icon.bsky:before {
+  content: none !important;   /* kill Font Awesome pseudo icon */
+}
+
+.icon.bsky {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon.bsky svg {
+  width: 1em;
+  height: 1em;
+  display: block;
+}
+
 
 
 
